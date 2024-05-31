@@ -35,7 +35,7 @@ function App() {
 
     // Replace fetch endpoint with your actual API gateway endpoint
     fetch(
-      "AWS_API_GATEWAY_ENDPOINT",
+      "https://505ti27zte.execute-api.us-east-1.amazonaws.com/Dev",
       requestOptions
     )
       .then((response) => response.text())
